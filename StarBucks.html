@@ -22,17 +22,12 @@
             padding: 40px;
             box-shadow: 0 0 10px blue;
         }
-        form {
-            display: flex;
-            flex-direction: column;
-        }
         input, select {
             padding: 10px;
-            margin-bottom: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
-        button {
+        .button1 {
             padding: 8px ;
             background-color: #006241ca;
             color: white;
@@ -42,9 +37,41 @@
             font-size: 16px;
             width: 110px;
         }
+        .menu-container{
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            justify-content:space-evenly;
+        }
+        .bt1{
+            background-color: white;
+            display: inline-block;
+            height: 50px;
+            width: 150px;
+            margin: 10px;
+            border-radius: 100px;
+        }
+        .bt2{
+            background-color:darkgreen;
+            color: white;
+            display: inline-block;
+            height: 50px;
+            width: 100px;
+            border-radius: 100px;
+        }
     </style>
 </head>
 <body>
+    <div class="menu-container">
+        <img src="https://ap.starbucksglobalacademy.com/assets/img/logo.e4c5e5aa.svg">
+        <span>Pursuit of Good</span>
+        <span>Third Place</span>
+        <span>Coffee Academy</span>
+        <span>Opportunity</span>
+        <button class="bt1">All Courses</button>
+        <button class="bt2">Sign in</button>
+    
+    </div>
     <div id="container">
         <div class="img-section">
           <img src="./Screenshot 2024-10-19 211949.png">
@@ -55,9 +82,9 @@
           <p><b>Already have an account? </b><br>
           <a href="" style="color: darkgreen;">sign in</a> to add these courses to your account.</p>
           <form action="">
-          <label for="12">First name*<br><input type="text" id="12" required></label>
-          <label for="13">Last name*<br><input type="text" id="13" required></label>
-          <label for="14">Email*<br><input type="email" id="14" required></label>
+          <label for="12">First name*<br><input type="text" id="12" required></label><br><br>
+          <label for="13">Last name*<br><input type="text" id="13" required></label><br><br>
+          <label for="14">Email*<br><input type="email" id="14" required></label><br><br>
           <label for="15">Location*</label>
               <select id="15" required>
                   <option>India</option>
@@ -74,7 +101,7 @@
                   <option>Malaysia</option>
                   <option>Japan</option>
                   <option>Brunel</option>
-              </select>
+              </select><br><br>
               <label for="phone">Phone number*</label>
               <div class="phone-container">
               <select id="" name="" required>
@@ -84,12 +111,12 @@
                   <option>+56</option>
               </select>
               <input type="tel" id="phone" required>
-              </div>
-              <label for="partner">Are you a Starbucks Partner?*</label>
+              </div><br>
+              <label for="partner">Are you a Starbucks Partner?*</label><br>
               <select required>
                   <option>Yes</option>
                   <option>No</option>
-              </select>
+              </select><br><br><br>
                   <center><button type="submit" class="button1">Next</button></center>
           </form>
       </div>
