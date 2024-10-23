@@ -8,7 +8,7 @@
         header{
             background-color: aquamarine;
             display: grid;
-            grid-template-columns: 10px 10px 200px 10px;
+            grid-template-columns: 0px 0px 200px 0px;
             grid-template-rows: 80px;
             align-items:center;
             align-content:space-around;
@@ -19,8 +19,11 @@
         }
         .logo{
             display: grid;
-            grid-template-columns: 100px 100px;
+            grid-template-columns: 50px 50px;
             grid-template-rows: 73px;
+            align-items: center;
+            justify-items: center;
+            
         }
         select{
             border: none;
@@ -28,10 +31,10 @@
         }
         input{
             display: block;
-            width: 500px;
+            width: 540px;
             height: 40px;
             border: none;
-            border-radius: 10px;
+            border-radius: 7px;
         }
     </style>
     <link rel="icon" href="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/oeaicaqw8eyses4t4rsq">
@@ -39,9 +42,9 @@
 <body>
     <header>
         <img src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.4.0/images/header/primary-logo.svg">
-        <div><h3>Delivery in 11 Mins</h3>
+        <div class="address"><h3>Delivery in 11 Mins</h3>
         <select><option>BTM 2nd Stage, Bengaluru, Karnataka</option><option>Use Gps Location</option></select></div>
-        <input type="text" placeholder="Search for pineapple juice">
+        <input type="text" placeholder="            Search for pineapple juice">
         <div class="logo">
             <div class="login">
             <svg fill="none" height="24px" viewBox="0 0 26 26" width="24px" xmlns="http://www.w3.org/2000/svg"><circle cx="12.5" cy="11.168" r="3.5" stroke="#FFFFFF" stroke-linecap="round" stroke-width="1.6"></circle><circle cx="12.5" cy="13.5" r="10.5" stroke="#FFFFFF" stroke-width="1.6"></circle><path d="M19.5 21.3236C19.0871 20.0832 18.1773 18.9872 16.9117 18.2054C15.646 17.4237 14.0953 17 12.5 17C10.9047 17 9.35398 17.4237 8.08835 18.2054C6.82271 18.9872 5.91289 20.0832 5.5 21.3236" stroke="#FFFFFF" stroke-linecap="round" stroke-width="1.6"></path></svg><p>Login</p></div>
