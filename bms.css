@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color:white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.search>input{
+    height: 30px;
+    width: 600px;
+    border: 0px solid gray;
+    border-radius: 5px;
+    padding: 0px 30px;
+}
+.search img{
+    position: relative;
+    top: 5px;
+    left: 30px;
+    height: 20px;
+}
+.account select{
+    background-color: inherit;
+    border: none;
+    width: 100px;
+}
+.account>button{
+    background-color: rgb(235, 70, 97);
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    padding:  5px 10px;
+    color: white;
+    font-size: 15px;
+}
+nav{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin: 0px 5px;
+}
+marquee{
+    background-color: rgb(221, 217, 217);
+}
+.movies,.liveevents,.music,.outdoor,.laughter,.popular,.latest,.games,.fun,.pimg{
+    padding: 0px 125px;
+}
+.movies img{
+    padding: 0px 15px;
+    border-radius: 25px;
+}
+.liveevents img,.pimg img,.music img,.outdoor img,.laughter img,.popular img,.latest img,.games img,.fun img{
+    padding: 0px 10px;
+    border-radius: 25px;
+}
+.p1,.p2,.p3{
+    position:relative;
+    left: 125px;
+    top:0px;
+}
+.movie1,.live,.music1,.event1,.laugh,.event2,.play1,.game1{
+    position: relative;
+    top: 0px;
+    left: 140px;
+}
+.f1{
+    position: relative;
+    top: 0px;
+    left: 135px;
+}
