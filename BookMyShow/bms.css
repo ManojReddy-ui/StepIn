@@ -27,16 +27,19 @@ header{
     border: none;
     width: 100px;
 }
-.account>button{
+.account>a{
     background-color: rgb(235, 70, 97);
     border: none;
-    height: 30px;
-    width: 80px;
+    height: 23px;
+    width: 50px;
     border-radius: 5px;
     border: none;
     padding:  5px 10px;
     color: white;
     font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    align-content: center;
 }
 nav{
     display: flex;
@@ -121,13 +124,12 @@ article img:hover{
     margin-top: 15px;
 }
 .section9 img{
-    width: 230px;
+    width: 260px;
     border-radius: 10px;
     position: relative;
-    top: 60px;
+    top: 118px;
     transition:1s;
 }
-
 .card3{
     width: 260px;
 }
@@ -147,10 +149,10 @@ article img:hover{
     margin-top: 15px;
 }
 .section11 img{
-    width: 230px;
+    width: 260px;
     border-radius: 10px;
     position: relative;
-    top: 60px;
+    top: 92px;
     transition:1s;
 }
 .card4{
@@ -172,10 +174,10 @@ article img:hover{
     margin-top: 15px;
 }
 .section13 img{
-    width: 230px;
+    width: 260px;
     border-radius: 10px;
     position: relative;
-    top: 60px;
+    top: 75px;
     transition:1s;
 }
 .card5{
@@ -198,9 +200,9 @@ article img:hover{
 }
 .section15 img{
     border-radius: 10px;
-    width: 230px;
+    width: 260px;
     position: relative;
-    top: 60px;
+    top: 77px;
     transition:1s;
 }
 .card6{
