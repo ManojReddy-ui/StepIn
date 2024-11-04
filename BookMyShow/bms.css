@@ -101,8 +101,7 @@ article img:hover{
 .section7 img{
     width: 260px;
     height: 360px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 .backdrop{
     background-color: rgb(1, 1, 16);
@@ -270,5 +269,4 @@ table{
 .footer5{
     background-color: rgb(1, 1, 16);
     color: rgb(226, 217, 217);
-
 }
