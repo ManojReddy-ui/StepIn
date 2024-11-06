@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+}
+.logo{
+    padding-left: 0px;
+}
+.menu{
+    display: flex;
+    padding: 0px 60px;
+}
+.menu1{
+    padding: 0px 11px;
+    
+}
+select{
+    width: 15px;
+}
+.signup{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+.sign1,.sign2{
+    padding: 0px 10px;
+}
+#s1{
+    font-size: 14px;
+    color: rgb(56, 56, 56);
+    background: inherit;
+    border: none;
+    transition: 1s;
+}
+#s1:hover{
+    
+    background-color: grey;
+    height: 30px;
+}
+#s2{
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    transition: 1s;
+}
+#s2:hover{
+    color: blueviolet;
+}
+.up{
+    padding-top: 310px;
+    padding-left: 170px;
+    padding-bottom: 60px;
+    background-image: url("https://static.hbo.com/2024-05/house-of-the-dragon-s2-ka-1920.jpg");
+    color: white;
+}
+.up button{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(30, 157, 207);
+    color: white;
+    font-size: 15px;
+    border: none;
+    transition: os;
+}
+#z1:hover,#z2:hover{
+    background-color: rgb(18, 131, 176);
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 40px;
+}
+.section1 img{
+    width: 230px;
+    height: 200px;
+}
+.card1{
+    width:230px
+}
+.below{
+    background-color: rgb(228, 224, 224);
+}
+.under{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 160px;
+}
+.hr1{
+    padding: 10px 165px 0px 165px ;
+}
+.under1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 165px;
+    padding-bottom: 20px;
+}
+.signup1{
+    display: flex;
+    padding-top: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 25px;
+    justify-content: space-evenly;
+    background-color: rgb(12, 12, 216);
+}
+.signup1 img{
+    width: 260px;
+    border-radius: 10px; 
+}
+.signup2 button:hover{
+    background-color: rgb(84, 171, 206);
+
+}
+.img4 p{
+    display: inline-block;
+    color: white;
+}
+.img4 img{
+    width: 350px;
+}
+.img4 button{
+    width: 130px;
+    height: 50px;
+    border-radius: 4px;
+}
+.all{
+    display: inline-block;
+    font-size: 40px;
+}
+.soon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.soon img{
+    width: 575px;
+    height: 315px;
+    border-radius: 3px;
+   
+}
+.card3{
+    width: 600px;  
+}
+.now{
+    background-image: url("https://c8.alamy.com/comp/2M23MDT/konskie-poland-december-13-2022-hbo-max-website-displayed-on-laptop-computer-screen-2M23MDT.jpg");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+#s3{
+    background-color: white;
+    color: black;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    transition: 0s;
+}
+#s3:hover{
+    background-color: rgb(47, 172, 222);
+}
+.footer{
+    background-color: rgba(96, 93, 93, 0.995);
+    color: whitesmoke;
+}
+.f1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 400px;
+    padding-right: 400px;
+    transition: os;
+}
+.f2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 500px;
+    padding-right: 500px;
+    transition: 0s;
+}
+#b1:hover,#b2:hover,#b3:hover,#b4:hover,#b5:hover,#b6:hover,#b7:hover,v,#b8:hover,#b9:hover,#b10:hover,#b11:hover{
+    text-decoration: underline;
+}
