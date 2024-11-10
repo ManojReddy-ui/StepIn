@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 140px;
+    font-family:'Times New Roman', Times, serif;
+}
+.menu{
+    display: flex;
+    padding: 0px 50px;
+}
+.about,.project,.media,.career,.report{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.option1{
+    width: 15px;
+    border: none;
+    background: inherit;
+}
+.home,.tender,.contact{
+    padding-left: 15px;
+}
+.NA{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: dimgrey;
+    padding-top: 300px; 
+    background-image: url("https://cdn.britannica.com/41/123141-050-E6229449/Air-New-Zealand-Boeing-747-400.jpg");
+}
+.img1,.img2,.img3,.img4{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px 0px;
+    transition: 2s;
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover{
+    background-color: dimgrey;
+    width: 400px;
+    pointer-events: fill;
+    border-radius: 10px;
+}
+.img1 img,.img2 img,.img3 img,.img4 img{
+    width: 90px;
+    border-radius: 90px;
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px 100px;
+}
+.section2{
+    display: flex;
+    margin-left: 110px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: rgb(0, 136, 255);
+}
+.sec1 p{
+    background-color: yellow;
+}
+.sec2{
+    display: flex;
+    
+}
